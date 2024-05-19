@@ -52,60 +52,111 @@ The player will have a health indicator (100 units).
 
 
 Program Documentation
+
 Zero Point Program Documentation
 A more detailed description of classes and methods is provided in the UML diagram.
 Classes:
 The classes are located in different folders and communicate with each other using the MVC pattern.
 
 Controller:
+
 AudioManager - Class for managing audio files
+
 Direction (enum) – Collection defining directions
+
 GameController – Main class that controls the entire game
+
 GameSaverLoader – Save and load the game from a save file
+
 GameStateController – Class that manages the game states
+
 InputHandler - Class for managing user input
+
 PhysicsEngine – Class for determining object collisions
+
 Sprite – Class for managing images
+
 SaveController – Class for storing data to be loaded
+
 **TextureManager
+
 TextureManager – Class for managing textures, tiles, maps
+
 CraftingRecipe – Class for crafting logic
+
 Collidable – Interface for collidable game objects
+
 Interactable – Interface for objects that can be interacted with
+
 Animatable – Interface for characters with animations
+
 Model:
+
 GameObject – Parent abstract class for all game objects
+
 Door – Class for all doors in the game
+
 CollisionBox – Trigger class for collision
+
 Item – Parent class for all items in the game
+
 Detail – Item for crafting
+
 Heal – First aid kit
+
 Key – Class for keys in the game
+
 Weapon – Class for weapons
+
 SuperWeapon – Class for the weapon obtained through crafting
+
 Ammo – Class for weapon ammunition
+
 Character – Parent class for characters in the game
+
 Player – Class for managing and updating the player
+
 Enemy – Class for the main character's enemies
+
 FriendlyNPC – Class for all allies of the character
+
 Inventory – Class for the player's inventory
+
 Recipe – Class for crafting recipes
+
 View:
+
 GameOverUI – Class for setting the UI when the game is over
+
 MenuUI – Class for setting the UI for PAUSE, START states
+
 InventoryUI – Class for setting the UI for the INVENTORY state
+
 UI – Class for setting the UI for other elements such as ammo, weapon, and health icons
+
 GamePanel – Class for setting up the scene and its configuration
+
 GUIConfig – Configuration settings for the graphical interface
+
 Technologies and Libraries Used:
+
 Java
+
 JavaFX
+
 JUnit
+
 Mocking
+
 Application States:
+
 GameOver
+
 Pause
+
 Play
+
 StartMenu
+
 Inventory
 
