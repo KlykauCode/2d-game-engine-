@@ -43,3 +43,13 @@ H – heal
 R – reload pistol
 Space – shoot (attack)
 The player will have a health indicator (100 units).
+![image](https://github.com/KlykauCode/2d-game-engine-/assets/157822018/aa889d78-c2ea-4a2d-9ff3-44ade61eccfe)
+![image](https://github.com/KlykauCode/2d-game-engine-/assets/157822018/06f29ecb-9ffa-46a3-9dcf-ca4d840a17d3)
+![image](https://github.com/KlykauCode/2d-game-engine-/assets/157822018/d39cfa2e-b46a-48d5-bb26-bb535456104f)
+![image](https://github.com/KlykauCode/2d-game-engine-/assets/157822018/e18d6fae-1443-48f8-b282-7c2411228a36)
+![image](https://github.com/KlykauCode/2d-game-engine-/assets/157822018/14b522b2-9473-4828-9018-593e91ab4105)
+![image](https://github.com/KlykauCode/2d-game-engine-/assets/157822018/d98c455b-083f-4f27-bc7d-6f679f9963be)
+
+
+
+
