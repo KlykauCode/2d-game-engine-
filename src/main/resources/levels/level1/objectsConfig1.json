@@ -1,0 +1,77 @@
+{
+  "gameObjects": [
+    {
+      "type": "Key",
+      "position": {"x": 8, "y": 6}
+    },
+    {
+      "type": "Key",
+      "position": {"x": 8, "y": 20}
+    },
+    {
+      "type": "Key",
+      "position": {"x": 28, "y": 33}
+    },
+    {
+      "type": "Key",
+      "position": {"x": 46, "y": 19}
+    },
+    {
+      "type": "Door",
+      "position": {"x": 26, "y": 8},
+      "isLocked": true
+    },
+    {
+      "type": "Door",
+      "position": {"x": 12, "y": 14},
+      "isLocked": true
+    },
+    {
+      "type": "Door",
+      "position": {"x": 54, "y": 15},
+      "isLocked": true
+    },
+    {
+      "type": "Door",
+      "position": {"x": 36, "y": 28},
+      "isLocked": true
+    },
+    {
+      "type": "Weapon",
+      "position": {"x": 7, "y": 7}
+    },
+    {
+      "type": "Ammo",
+      "position": {"x": 8, "y": 8}
+    },
+    {
+      "type": "Ammo",
+      "position": {"x": 26, "y": 33}
+    },
+    {
+      "type": "Ammo",
+      "position": {"x": 38, "y": 12}
+    },
+    {
+      "type": "Detail",
+      "position": {"x": 36, "y": 20}
+    },
+    {
+      "type": "Heal",
+      "position": {"x": 36, "y": 1}
+    },
+    {
+      "type": "Heal",
+      "position": {"x": 18, "y": 18}
+    },
+    {
+      "type": "LevelDoor",
+      "position": {"x": 55, "y": 0},
+      "isLocked": true
+    },
+    {
+      "type": "LevelKey",
+      "position": {"x": 54, "y": 9}
+    }
+  ]
+}

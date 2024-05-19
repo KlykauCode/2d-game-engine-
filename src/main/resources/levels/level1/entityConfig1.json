@@ -1,0 +1,104 @@
+{
+  "npcs": [
+    {
+      "id": 1,
+      "dialogues": [
+        "I didn't think anyone survived",
+        "Looks like something very serious happened",
+        "We will follow emergency protocol, we need to get out and get further instructions.",
+        "Take a weapon, there are infected people outside, they can attack you",
+        "Here is the key to the door to the main corridor, you need to get to the northeastern part of the floor, there will be a staircase up",
+        "Good luck"
+      ],
+      "position": { "x": 2, "y": 4 },
+      "speed": 1,
+      "health": 100
+    },
+    {
+      "id": 2,
+      "dialogues": [
+        "You're alive, thank God",
+        "There was some kind of accident, we need to find out what happened",
+        "You need to find the key and open the door to the northern part of the floor",
+        "Maybe there are survivors there",
+        "Good luck"
+      ],
+      "position": { "x": 20, "y": 17 },
+      "speed": 1,
+      "health": 100
+    },
+    {
+      "id": 3,
+      "dialogues": [
+        "I knew that someone had survived.",
+        "You need to find a gun and a special part. If you combine them together, you get a weapon much stronger than a regular pistol.",
+        "Find these two components and a new weapon will appear in your inventory"
+      ],
+      "position": { "x": 23, "y": 5 },
+      "speed": 1,
+      "health": 100
+    }
+  ],
+  "enemies": [
+    {
+      "id": 1,
+      "position": { "x": 20, "y": 11 },
+      "speed": 4,
+      "health": 100
+    },
+    {
+      "id": 2,
+      "position": { "x": 27, "y": 20 },
+      "speed": 3,
+      "health": 100
+    },
+    {
+      "id": 3,
+      "position": { "x": 26, "y": 20 },
+      "speed": 3,
+      "health": 100
+    },
+    {
+      "id": 4,
+      "position": { "x": 28, "y": 20 },
+      "speed": 3,
+      "health": 100
+    },
+    {
+      "id": 5,
+      "position": { "x": 28, "y": 15 },
+      "speed": 4,
+      "health": 100
+    },
+    {
+      "id": 6,
+      "position": { "x": 30, "y": 30 },
+      "speed": 2,
+      "health": 100
+    },
+    {
+      "id": 7,
+      "position": { "x": 31, "y": 30 },
+      "speed": 4,
+      "health": 100
+    },
+    {
+      "id": 8,
+      "position": { "x": 29, "y": 25 },
+      "speed": 4,
+      "health": 100
+    },
+    {
+      "id": 9,
+      "position": { "x": 37, "y": 12 },
+      "speed": 4,
+      "health": 100
+    },
+    {
+      "id": 10,
+      "position": { "x": 38, "y": 15 },
+      "speed": 4,
+      "health": 100
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "npcs": [
+    {
+      "id": 2,
+      "dialogues": [
+        "When I see your eyes",
+        "My heart goes blind",
+        "And I don’t mind",
+        "If you’ll be my demise",
+        "Forevermore",
+        "The one I adore"
+      ],
+      "position": { "x": 2, "y": 4 },
+      "speed": 1,
+      "health": 100
+    },
+    {
+      "id": 3,
+      "dialogues": [
+        "Интересно можно ли аирподсы сдать и доплатить тысячи 2 за новые?",
+        "Шумодав подустал уже",
+        "Хочется ничего не слышать вокруг совсем",
+        "Может все таки сигареты курить…"
+      ],
+      "position": { "x": 20, "y": 17 },
+      "speed": 1,
+      "health": 100
+    }
+  ],
+  "enemies": [
+    {
+      "id": 11,
+      "position": { "x": 20, "y": 11 },
+      "speed": 4,
+      "health": 100
+    },
+    {
+      "id": 12,
+      "position": { "x": 27, "y": 20 },
+      "speed": 3,
+      "health": 100
+    },
+    {
+      "id": 13,
+      "position": { "x": 26, "y": 20 },
+      "speed": 3,
+      "health": 100
+    },
+    {
+      "id": 14,
+      "position": { "x": 28, "y": 20 },
+      "speed": 3,
+      "health": 100
+    },
+    {
+      "id": 115,
+      "position": { "x": 28, "y": 15 },
+      "speed": 4,
+      "health": 100
+    },
+    {
+      "id": 16,
+      "position": { "x": 30, "y": 30 },
+      "speed": 2,
+      "health": 100
+    },
+    {
+      "id": 17,
+      "position": { "x": 31, "y": 30 },
+      "speed": 4,
+      "health": 100
+    },
+    {
+      "id": 18,
+      "position": { "x": 29, "y": 25 },
+      "speed": 4,
+      "health": 100
+    },
+    {
+      "id": 19,
+      "position": { "x": 37, "y": 12 },
+      "speed": 4,
+      "health": 100
+    },
+    {
+      "id": 20,
+      "position": { "x": 38, "y": 15 },
+      "speed": 4,
+      "health": 100
+    }
+  ]
+}

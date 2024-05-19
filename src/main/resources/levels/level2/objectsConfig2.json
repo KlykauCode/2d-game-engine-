@@ -1,0 +1,42 @@
+{
+  "gameObjects": [
+    {
+      "type": "Key",
+      "position": {"x": 8, "y": 6}
+    },
+    {
+      "type": "Door",
+      "position": {"x": 36, "y": 28},
+      "isLocked": true
+    },
+    {
+      "type": "Ammo",
+      "position": {"x": 8, "y": 8}
+    },
+    {
+      "type": "Ammo",
+      "position": {"x": 26, "y": 33}
+    },
+    {
+      "type": "Ammo",
+      "position": {"x": 38, "y": 12}
+    },
+    {
+      "type": "Heal",
+      "position": {"x": 36, "y": 1}
+    },
+    {
+      "type": "Heal",
+      "position": {"x": 18, "y": 18}
+    },
+    {
+      "type": "LevelDoor",
+      "position": {"x": 5, "y": 0},
+      "isLocked": true
+    },
+    {
+      "type": "LevelKey",
+      "position": {"x": 54, "y": 9}
+    }
+  ]
+}
