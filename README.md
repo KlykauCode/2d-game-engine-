@@ -43,3 +43,120 @@ H – heal
 R – reload pistol
 Space – shoot (attack)
 The player will have a health indicator (100 units).
+![image](https://github.com/KlykauCode/2d-game-engine-/assets/157822018/aa889d78-c2ea-4a2d-9ff3-44ade61eccfe)
+![image](https://github.com/KlykauCode/2d-game-engine-/assets/157822018/06f29ecb-9ffa-46a3-9dcf-ca4d840a17d3)
+![image](https://github.com/KlykauCode/2d-game-engine-/assets/157822018/d39cfa2e-b46a-48d5-bb26-bb535456104f)
+![image](https://github.com/KlykauCode/2d-game-engine-/assets/157822018/e18d6fae-1443-48f8-b282-7c2411228a36)
+![image](https://github.com/KlykauCode/2d-game-engine-/assets/157822018/14b522b2-9473-4828-9018-593e91ab4105)
+![image](https://github.com/KlykauCode/2d-game-engine-/assets/157822018/d98c455b-083f-4f27-bc7d-6f679f9963be)
+
+
+Program Documentation
+
+Zero Point Program Documentation
+A more detailed description of classes and methods is provided in the UML diagram.
+Classes:
+The classes are located in different folders and communicate with each other using the MVC pattern.
+
+Controller:
+
+AudioManager - Class for managing audio files
+
+Direction (enum) – Collection defining directions
+
+GameController – Main class that controls the entire game
+
+GameSaverLoader – Save and load the game from a save file
+
+GameStateController – Class that manages the game states
+
+InputHandler - Class for managing user input
+
+PhysicsEngine – Class for determining object collisions
+
+Sprite – Class for managing images
+
+SaveController – Class for storing data to be loaded
+
+**TextureManager
+
+TextureManager – Class for managing textures, tiles, maps
+
+CraftingRecipe – Class for crafting logic
+
+Collidable – Interface for collidable game objects
+
+Interactable – Interface for objects that can be interacted with
+
+Animatable – Interface for characters with animations
+
+Model:
+
+GameObject – Parent abstract class for all game objects
+
+Door – Class for all doors in the game
+
+CollisionBox – Trigger class for collision
+
+Item – Parent class for all items in the game
+
+Detail – Item for crafting
+
+Heal – First aid kit
+
+Key – Class for keys in the game
+
+Weapon – Class for weapons
+
+SuperWeapon – Class for the weapon obtained through crafting
+
+Ammo – Class for weapon ammunition
+
+Character – Parent class for characters in the game
+
+Player – Class for managing and updating the player
+
+Enemy – Class for the main character's enemies
+
+FriendlyNPC – Class for all allies of the character
+
+Inventory – Class for the player's inventory
+
+Recipe – Class for crafting recipes
+
+View:
+
+GameOverUI – Class for setting the UI when the game is over
+
+MenuUI – Class for setting the UI for PAUSE, START states
+
+InventoryUI – Class for setting the UI for the INVENTORY state
+
+UI – Class for setting the UI for other elements such as ammo, weapon, and health icons
+
+GamePanel – Class for setting up the scene and its configuration
+
+GUIConfig – Configuration settings for the graphical interface
+
+Technologies and Libraries Used:
+
+Java
+
+JavaFX
+
+JUnit
+
+Mocking
+
+Application States:
+
+GameOver
+
+Pause
+
+Play
+
+StartMenu
+
+Inventory
+
