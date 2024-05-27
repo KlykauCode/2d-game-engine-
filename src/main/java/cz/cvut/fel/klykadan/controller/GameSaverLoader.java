@@ -68,7 +68,7 @@ public class GameSaverLoader {
             return (SaveController) in.readObject();
         } catch (IOException | ClassNotFoundException e) {
             LOGGER.severe("Cannot load: " + e.getMessage());
-            return null;
+            return new NullSaveController();
         }
     }
     /**

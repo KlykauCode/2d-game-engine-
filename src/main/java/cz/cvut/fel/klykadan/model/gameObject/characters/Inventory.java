@@ -117,7 +117,7 @@ public class Inventory {
      * @return A list of all items in the inventory.
      */
     public List<Item> getAllItems() {
-        List<Item> allItems = new ArrayList<>();
+        List<Item> allItems = new LinkedList<>();
         items.values().forEach(allItems::addAll);
         return allItems;
     }

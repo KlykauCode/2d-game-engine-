@@ -28,7 +28,7 @@ public class SaveController implements Serializable {
     public int getPlayerLevel() { return playerLevel; }
     public void setPlayerLevel(int playerLevel) { this.playerLevel = playerLevel; }
 
-    public List<ItemData> getInventory() { return inventory; }
+    public List<ItemData> getInventory() {  return inventory; }
     public List<GameObjectData> getGameObjectData() {
         return gameObjectData;
     }
